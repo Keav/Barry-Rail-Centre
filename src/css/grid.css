@@ -1,0 +1,28 @@
+.grid_1{
+    width:60px;
+}.grid_2{
+    width:140px;
+}
+.grid_3, .grid_3_right{
+    width:220px;
+}
+.grid_4{
+    width:300px;
+}
+.grid_5{
+    width:380px;
+}
+
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8{
+    float:left;
+}
+
+.grid_3_right{
+   float:right; 
+}
+.grid_divide{
+    width:20px;
+    float:left;
+}.grid_8{
+    width:625px;
+}
