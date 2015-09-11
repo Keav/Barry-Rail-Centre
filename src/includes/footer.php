@@ -1,14 +1,14 @@
 
 <div class="grid_4" id="footerLeft">
-    <h2>Copyright &copy; Barry Rail Centre 2013</h2>
+    <h2>Copyright &copy; Barry Rail Centre 2015</h2>
     <p class="footerFollow">Follow us on <a href="https://twitter.com/BarryRailway" target="_blank">Twitter</a> &amp; <a target="_blank" href="http://www.facebook.com/pages/Barry-Tourist-Railway/196540117115590">Facebook</a></p>
-    
+
      </div>
- 
+
 
 
 <div class="grid_5" id="footerRight">
-       <? 
+       <?
             function ago($timestamp) {
                 $difference = time() - $timestamp;
 
@@ -48,36 +48,36 @@
             ?>
 
             <?php
-            
+
                 $tweet = preg_replace('@(https?://([-\w\.]+)+(:\d+)?(/([\w/_\.]*(\?\S+)?)?)?)@', '<a target="_blank" href="$1">$1</a>', $content);
                 $tweet = preg_replace("/@([0-9a-zA-Z]+)/", "<a target=\"_blank\" href=\"http://twitter.com/$1\">@$1</a>", $tweet);
                 $tweet = preg_replace("/#([0-9a-zA-Z]+)/", "<a target=\"_blank\" href=\"http://twitter.com/#!/search/%23$1\">#$1</a>", $tweet);
                   $tweet = str_replace('&', '&amp;', $tweet);
 		echo "<h2>Latest Tweet <span>".$time."</span></h2>";
 		echo "<p>".$tweet."</p>";
-            
-                
-                
-                 
- 
+
+
+
+
+
             ?>
-    
-    
-    
-    
-            
-    
-    
-    
+
+
+
+
+
+
+
+
 </div>
 
 <br style="clear:both;"/>
 
- 
+
     <p class="bluestag">Web Design by <a target="_blank" href="http://www.bluestagstudio.co.uk/">Blue Stag Studio</a></p>
- 
+
     <p class="conjunction">In conjunction with <a href="http://www.barrytouristrailway.co.uk/" target="_blank">Barry Tourist Railway</a></p>
- 
- 
+
+
 
 <br style="clear:both;"/>
